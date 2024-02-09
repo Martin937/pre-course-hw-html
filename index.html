@@ -4,13 +4,13 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<link rel="stylesheet" href="./style.css">
+	<title>House-worck</title>
 </head>
 
 <body>
-
 	<header class="header">
-		<a href="#"><img src="./images/Logo.svg" alt="logo"></a>
+		<a href="#"><img src="./assets/images/Logo.svg" alt="logo"></a>
 		<ul>
 			<li><a href="#">Main</a></li>
 			<li><a href="#">Rates</a></li>
@@ -22,7 +22,7 @@
 		<h1>Markup achievement</h1>
 		<p>The harder you work for something, the greater you’ll feel when you achieve it.</p>
 		<button>Learn More</button>
-		<img src="./images/image.png" alt="image">
+		<img src="./assets/images/image.png" alt="image">
 	</section>
 
 	<section>
@@ -37,21 +37,21 @@
 			</tr>
 			<tr>
 				<th>Theory</th>
-				<td><img src="./images/Check.svg" alt="check"></td>
-				<td><img src="./images/Check.svg" alt="check"></td>
-				<td><img src="./images/Check.svg" alt="check"></td>
+				<td><img src="./assets/images/Check.svg" alt="check"></td>
+				<td><img src="./assets/images/Check.svg" alt="check"></td>
+				<td><img src="./assets/images/Check.svg" alt="check"></td>
 			</tr>
 			<tr>
 				<th>Practice</th>
-				<td><img src="./images/Close.svg" alt="close"></td>
-				<td><img src="./images/Check.svg" alt="check"></td>
-				<td><img src="./images/Check.svg" alt="check"></td>
+				<td><img src="./assets/images/Close.svg" alt="close"></td>
+				<td><img src="./assets/images/Check.svg" alt="check"></td>
+				<td><img src="./assets/images/Check.svg" alt="check"></td>
 			</tr>
 			<tr>
 				<th>Code review</th>
-				<td><img src="./images/Close.svg" alt="close"></td>
-				<td><img src="./images/Close.svg" alt="close"></td>
-				<td><img src="./images/Check.svg" alt="check"></td>
+				<td><img src="./assets/images/Close.svg" alt="close"></td>
+				<td><img src="./assets/images/Close.svg" alt="close"></td>
+				<td><img src="./assets/images/Check.svg" alt="check"></td>
 			</tr>
 			<tr>
 				<th>Have questions?</th>
@@ -78,8 +78,9 @@
 			<input placeholder="Full Name*" type="text">
 			<input placeholder="Email*" type="email">
 			<input placeholder="Password*" type="password">
-			<input type="date">
-			<!-- <input placeholder="Date of Birth" type="date"> -->
+			<!-- <input type="date"> -->
+			<input type="text" placeholder="Date of Birth" onfocus="(this.type='date')">
+
 
 			<select>
 				<option selected disabled>Country</option>
@@ -107,6 +108,7 @@
 		<small>Copyright © 2023. All rights reserved.</small>
 	</footer>
 
+	<script src="./index.js"></script>
 </body>
 
 </html>
