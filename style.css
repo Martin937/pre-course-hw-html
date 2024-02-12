@@ -1,8 +1,113 @@
 /* pixso - replacement - figma */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+button {
+  border: none;
+  background-color: transparent;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
 
 .header {
-  background-color: rgb(51, 51, 255);
-  a {
-    color: #fff;
-  }
+  background-color: #0a61f7;
+  /* height: 76px; */
+  padding: 14px 0;
+}
+
+.menu-link {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+
+.main-title {
+  color: #363940;
+  font-size: 58px;
+  font-weight: 500;
+  line-height: 68px;
+  margin-bottom: 30px;
+}
+.text {
+  color: #95a1bb;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 40px;
+}
+.button {
+  width: 152px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #0a61f7;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.6px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+.rates-section {
+  background-color: #f9fafc;
+  padding: 100px 0;
+}
+.title {
+  color: #363940;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 43px;
+  text-align: center;
+}
+.table {
+  border-collapse: collapse;
+}
+th,
+td {
+  width: 241px;
+  height: 52px;
+  border: 1px solid #95a1bb;
+  text-align: center;
+}
+.table- title {
+  color: #363940;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+.table-subtitle {
+  color: rgb(54, 57, 64);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  padding-left: 20px;
+}
+.table-link {
+  color: #0a61f7;
+}
+.table-button {
+  width: 140px;
+  padding: 8px 0;
+  border: 1px solid #0a61f7;
+  border-radius: 4px;
+
+  color: #0a61f7;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 19.6px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
 }
