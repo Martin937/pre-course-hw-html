@@ -103,11 +103,17 @@ td {
   padding: 8px 0;
   border: 1px solid #0a61f7;
   border-radius: 4px;
-
   color: #0a61f7;
   font-size: 12px;
   font-weight: 500;
   line-height: 19.6px;
   letter-spacing: 1.4px;
   text-transform: uppercase;
+}
+.table-button.active {
+  background-color: #0a61f7;
+  color: #ffffff;
+}
+.table-footer td {
+  padding: 30px 0;
 }
